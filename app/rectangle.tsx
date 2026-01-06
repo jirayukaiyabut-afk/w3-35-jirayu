@@ -36,7 +36,7 @@ function rectangleCal(){
             onChangeText={(l) => setLength(Number(l))}
             />
 
-            <Button title="คำนวน" onPress={() => rectangleCal()}/>
+            <Button title="คำนวนพื้นที่สี่เหลี่ยม" onPress={() => rectangleCal()}/>
         </View>
     )
 }
