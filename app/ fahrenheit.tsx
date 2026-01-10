@@ -13,11 +13,12 @@ function fahrenheit(){
 
     return(
         <View style={styles.box}>
+            <Text>(+=I=+-----------------------------(G)------------------------------+=I=+)</Text>
             <Text style={styles.textTitle}>คำนวนฟาเรนไฮต์เป็นเซลเซียส</Text>
             
             <Text>ฟาเรนไฮต์ คือ {Fahrenheit} F ํ</Text>
             <Text>เซลเซียส คือ {c.toFixed(3)} C ํ</Text>
-
+         <Text>+=I=+-----------------------------(U)------------------------------+=I=+</Text>
             <TextInput 
             style={styles.TextInput} 
             placeholder="กรอกจำนวนฟาเรนไฮต์" 
@@ -25,6 +26,8 @@ function fahrenheit(){
             value={Fahrenheit.toString()}
             onChangeText={(f) => setfahrenHeit(Number(f))}
             />
+
+            <Text>(+=I=+-----------------------------(S)------------------------------+=I=+)</Text>
 
             <Button title="คำนวนองศา" onPress={() => fahrenheit()}/>
         </View>

@@ -14,12 +14,13 @@ function rectangleCal(){
 
     return(
         <View style={styles.box}>
+            <Text>(+=I=+-----------------------------(G)------------------------------+=I=+)</Text>
             <Text style={styles.textTitle}>คำนวนพื้นที่สี่เหลี่ยม</Text>
             
             <Text>ความกว้าง คือ {width} ซม.</Text>
             <Text>ความยาว คือ {length} ซม.</Text>
             <Text>พื้นที่สีเหลี่ยม คือ {area} ตร.ซม.</Text>
-
+            <Text>+=I=+-----------------------------(U)------------------------------+=I=+</Text>
             <TextInput 
             style={styles.TextInput} 
             placeholder="กรอกความกว้าง" 
@@ -37,6 +38,8 @@ function rectangleCal(){
             />
 
             <Button title="คำนวนพื้นที่สี่เหลี่ยม" onPress={() => rectangleCal()}/>
+            
+             <Text>(+=I=+-----------------------------(S)------------------------------+=I=+)</Text>
         </View>
     )
 }
@@ -45,7 +48,7 @@ const styles = StyleSheet.create({
     box:{
         gap:20,
         flex: 1,
-        backgroundColor: "white",
+        backgroundColor: "lightblue",
         justifyContent:"center",
         alignItems:"center"
     },
